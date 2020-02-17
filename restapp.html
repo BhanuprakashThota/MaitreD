@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurant</title>
+    <link href="rest.css" rel="stylesheet">
+</head>
+<style>
+</style>
+<body >
+    <h1>Maitre D</h1>
+    <hr>
+    <main >
+        <br>
+        <div>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label>Total: $</label>
+                        <input id="total" type="number" placeholder="Input your total amount"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Tip: </label><span id="Tip">$</span><br><br>
+                    </td>
+                    <td>
+                        <label>Rate: %</label>
+                        <input id="rate" type="number" placeholder="Percent of tax"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Tax: <span id="Tax">$5.50</span></label><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Grand Total: <span id="GrandTotal">$</span></label><br>
+                    </td>
+                </tr>
+            </table>
+            <p><button id="TotalCalc" onclick="restGrandtotal()">Calculate</button></p>
+    </main>
+    <script src="jslogic.js"></script>
+    </div>
+</body>
+</html>
